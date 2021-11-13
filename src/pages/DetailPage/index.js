@@ -14,6 +14,7 @@ import {
   Include,
   BackButton,
   Gap,
+  Booking,
 } from './../../components';
 
 const DetailPage = () => {
@@ -50,6 +51,7 @@ const DetailPage = () => {
           <Gap height={26} />
         </View>
       </ScrollView>
+      <Booking />
     </View>
   );
 };
