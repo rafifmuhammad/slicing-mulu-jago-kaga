@@ -22,7 +22,7 @@ const DetailPage = () => {
     <View style={styles.page}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <ImageBackground source={Mask} style={styles.background}>
-          <BackButton />
+          <BackButton onPress={() => alert('pencet terus gan')} />
         </ImageBackground>
         <View style={styles.content}>
           <Gap height={26} />
